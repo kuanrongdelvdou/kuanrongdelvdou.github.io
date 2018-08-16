@@ -1,0 +1,264 @@
+﻿/* 页面配置 */
+.container {
+	width: 100%;
+	height: 100%;
+}
+
+body, html{
+	margin:0px;
+	height:100%;
+	overflow:hidden;
+	background-color: #333333;
+}
+
+a {
+	color: #FFCC00;
+	text-decoration: none;
+}
+
+a:active, a:hover{
+	color: #FF9900;
+	outline: 0;
+}
+
+.row{
+	height: 100%;
+}
+
+/* 导航栏 + 目录栏 */
+.aside {
+	height: 100%;
+}
+
+.aside1{
+	background-color: #222222;
+	height: 100%;
+	padding-left: 0px;
+	padding-right: 0px;
+	text-align: center;
+	box-shadow: inset -15px 0 15px -15px #111111;
+}
+
+.aside1 > .nav > li > a {
+  padding-left: 0px;
+  padding-right: 0px;
+  border-radius: 0px;
+  box-shadow: inset -15px 0 15px -15px #111111;
+}
+
+.avatar {
+  width: 70px;
+  height: 70px;
+  box-shadow: inset -15px 0 15px -15px #222222;
+}
+
+.aside {
+  height: 100%;
+}
+
+.aside1_bottom {
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+
+.aside1_bottom > .table {
+  margin-bottom: 0px;
+}
+
+/* 中部目录栏 */
+.aside2{
+  background-color: #333333;
+  height: 100%;
+  border-right: 2px solid #444444;
+  overflow-y: auto;
+  box-shadow: inset -15px 0 15px -15px #222222;
+}
+
+/* 右侧内容栏 */
+.aside3 {
+  height: 100%;
+  overflow-y: auto;
+  background-color: #444444;
+}
+.aside3-title {
+  background-color: #444444;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
+  color: #DDDDDD;
+}
+
+.aside3-content {
+  padding-left: 15px;
+  padding-right: 15px;
+  color: #EEEEEE;
+}
+
+#content {
+	font-size:21px;
+	line-height:160%;
+}
+
+#content h2,h3 {
+	line-height: 2;
+}
+blockquote p {
+	font-size:20px;
+}
+
+/* 其他配置 */
+.center {
+	text-align: center;
+	color: #FFCC00;
+}
+
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:hover,
+.nav-pills>li.active>a:active,
+.nav-pills>li.active>a:focus{
+  color: #333333;
+  background-color: #FFCC00;
+  box-shadow: inset -15px 0 15px -15px #111111;
+}
+
+/* 显示评论按钮 */
+.show-commend{
+  width:100%;
+  margin-bottom:40px;
+}
+
+a.list-group-item {
+	color: #FFCC00;
+  background-color: #333333;
+  box-shadow: inset -15px 0 15px -15px #222222;
+}
+
+.nav>li>a:hover, .nav>li>a:focus {
+	text-decoration: none;
+	background-color: #FFCC00;
+	color: #222222;
+}
+
+.panel-group .panel {
+	border-radius: 0px;
+}
+
+.panel-info {
+	border:0px;
+}
+
+.panel-info>.panel-heading {
+	padding: 10px 15px;
+	border-bottom: 1px solid transparent;
+	color: #FFCC00;
+	background-color: #333333;
+	border-color: #CC0000;
+	border-top-right-radius: 0px;
+	border-top-left-radius: 0px;
+	box-shadow: inset -15px 0 15px -15px #222222;
+}
+
+.list-group-item{
+	border: 0px;
+}
+
+.list-group-item:first-child {
+	border-top-right-radius: 0px;
+	border-top-left-radius: 0px;
+}
+
+.list-group-item:last-child {
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+
+a.list-group-item:hover, a.list-group-item:focus {
+	color: #FF9900;
+	background-color: #222222;
+	box-shadow: inset -15px 0 15px -15px #111111;
+}
+
+.panel-title>a {
+	font-size: 18px;
+}
+
+.highlight, p > pre, p > code, p > nobr > code, li > code, h5 > code, .note > code {
+	background: #333;
+	color: #fff;
+	border-radius: 5px;
+	box-shadow: inset 0 1px 10px rgba(0,0,0,.3), 0 1px 0 rgba(255,255,255,.1), 0 -1px 0 rgba(0,0,0,.5);
+}
+
+pre {
+	background: #333;
+	font-size: 14px;
+	border: 0px;
+	box-shadow: inset 0 1px 10px rgba(0,0,0,.3), 0 1px 0 rgba(255,255,255,.1), 0 -1px 0 rgba(0,0,0,.5);
+}
+.panel-primary>.panel-heading {
+	color: #FFCC00;
+	font-size: 18px;
+	background-color: #222222;
+	border-color: #222222;
+}
+.panel-primary {
+	border-color: #222222;
+}
+
+.panel-success {
+	border-color: #333333;
+}
+.panel {
+	background-color: #333333;
+}
+
+.btn-lg, .btn-lg:hover, .btn-lg:focus {
+	color: #FFCC00;
+	background-color: #111111;
+	opacity:0.3;
+  filter: alpha(opacity=30);
+	padding: 10px 16px;
+	font-size: 20px;
+	line-height: 1.33;
+	border-radius: 6px;
+}
+
+h1, .h1 {
+	font-weight: 600;
+	font-size: 40px;
+	color: #FF9900;
+}
+
+h2, .h2 {
+	margin: 24
+	px 0px 1px 0px;
+	font-weight: 600;
+	font-size: 32px;
+	color: #FFCC00;
+}
+
+h3, .h3 {
+	margin: 24px 0px -1px 0px;
+	font-size: 22px;
+}
+h3:before, .h3:before{
+	content:"● ";
+	color:#FFCC00;
+}
+pre code {
+	color: #FFFFFF;
+}
+table {
+	width: 95%;
+	border: 1px solid #ddd;
+	margin-bottom: 20px
+}
+table>thead>tr>th, table>tbody>tr>th, table>tfoot>tr>th, table>thead>tr>td, table>tbody>tr>td, table>tfoot>tr>td {
+	border: 1px solid #ddd;
+	padding: 5px;
+	line-height: 1.42857143;
+	vertical-align: top;
+	border-top: 1px solid #ddd;
+}

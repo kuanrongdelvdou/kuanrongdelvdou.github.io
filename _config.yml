@@ -1,0 +1,56 @@
+﻿permalink: /:year/:month/:day/:title.html
+paginate: 30
+highlighter: pygments
+markdown: redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
+
+# 作者信息
+author: 
+  name: 李阿伦
+  email: lialun@bedpotato.com
+  link: http://lialun.github.io
+  weibo: http://www.weibo.com/bedpotato
+  github: http://github.com/lialun
+
+# 站点信息
+title: 李阿伦的博客 
+description: 李阿伦的博客
+url: http://lialun.github.io
+rss_url: /pages/atom.xml
+
+# gavatar头像及Favicon
+gavatar: /public/upload/gavatar/gavatar.png
+favicon: /public/upload/gavatar/favicon.ico
+
+# google analytics 设置
+ga:
+  id: UA-49729354-1
+  url: allan.li
+
+# disqus 设置
+disqus:
+  shortname: lialun
+
+# 主题设置，自动激活某个标签
+active: android
+
+# 中文本地化
+locals:
+  newest: 最新文章
+  about: About
+  java: Java
+  android: Android
+  tool: Tool
+  resource: Resource
+  book: Book
+  mysql: MySQL
+  server: Server
+  life: Life
+  other: Other
+
+#二级目录列表（其余为一级目录）
+secondary: tools|mysql
+
+# 编码
+encoding: utf-8
