@@ -7,21 +7,21 @@ redcarpet:
 
 # 作者信息
 author: 
-  name: 李阿伦
-  email: lialun@bedpotato.com
-  link: http://lialun.github.io
+  name: EdenHao
+  email: kuanrongdelvdou@163.com
+  link: http://kuanrongdelvdou.github.io
   weibo: http://www.weibo.com/bedpotato
-  github: http://github.com/lialun
+  github: http://github.com/kuanrongdelvdou
 
 # 站点信息
-title: 李阿伦的博客 
-description: 李阿伦的博客
-url: http://lialun.github.io
+title: EdenHao的博客 
+description: EdenHao的博客
+url: http://kuanrongdelvdou.github.io
 rss_url: /pages/atom.xml
 
 # gavatar头像及Favicon
-gavatar: /public/upload/gavatar/gavatar.png
-favicon: /public/upload/gavatar/favicon.ico
+gavatar: /public/upload/gavatar/bruessli.jpg
+favicon: /public/upload/gavatar/bruess.ico
 
 # google analytics 设置
 ga:
