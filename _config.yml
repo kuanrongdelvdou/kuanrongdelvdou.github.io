@@ -47,6 +47,7 @@ locals:
   mysql: MySQL
   server: Server
   life: Life
+  Java8新特性: Java8新特性
   other: Other
 
 #二级目录列表（其余为一级目录）
